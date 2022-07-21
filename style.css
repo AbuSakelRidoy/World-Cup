@@ -207,8 +207,12 @@ body {
     text-align: center;
 }
 
-hr{
-    color: #fff;
+.hr{
+    width: 60%;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
 }
 
 .footerMenu ul{
