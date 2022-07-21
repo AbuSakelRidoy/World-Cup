@@ -176,13 +176,14 @@ body {
     list-style: none;
     padding-right: 15px;
 }
+
 .moreButton {
     width: 100%;
     display: flex;
     justify-content: center;
-  }
+}
 
-.moreButton button{
+.moreButton button {
     height: 55px;
     width: 180px;
     text-align: center;
@@ -195,11 +196,13 @@ body {
     border-radius: 7px;
     display: none;
 }
-.footer{
+
+.footer {
     background-color: #000;
     padding: 30px 0px;
 }
-.footerTitle h3{
+
+.footerTitle h3 {
     color: #fff;
     font-size: 40px;
     margin: 0px;
@@ -207,15 +210,15 @@ body {
     text-align: center;
 }
 
-.hr{
-    width: 60%;
+.hr {
+    width: 80%;
     color: gray;
     margin-top: 0px;
     margin-bottom: 50px;
 
 }
 
-.footerMenu ul{
+.footerMenu ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -225,14 +228,16 @@ body {
 
 }
 
-.footerMenu ul li{
+.footerMenu ul li {
     list-style: none;
     margin: 10px 15px;
 }
-.footerMenu ul li a{
+
+.footerMenu ul li a {
     text-decoration: none;
     color: rgb(212, 212, 212);
 }
+
 .fa-facebook-f {
     background: #9b9b9b66;
     padding: 7px 10px;
@@ -240,35 +245,40 @@ body {
     color: rgb(128, 128, 128);
     transition: 0.4s;
 }
+
 .fa-facebook-f:hover {
     background-color: #fff !important;
     color: #000;
 }
+
 .fa-instagram {
     background: #9b9b9b66;
     padding: 7px 9px;
     border-radius: 15px;
 }
+
 .fa-instagram:hover {
     background-color: #fff !important;
     color: #000;
 }
+
 .fa-twitter {
     background: #9b9b9b66;
     padding: 7px 8px;
     border-radius: 15px;
 }
+
 .fa-twitter:hover {
     background-color: #fff !important;
     color: #000;
 }
 
 
-.matchBlog{
+.matchBlog {
     width: 30%;
 }
 
-.teamFlags span{
+.teamFlags span {
     font-size: 16px;
     font-weight: 700;
 }
@@ -278,6 +288,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .matchBlog {
     width: 26%;
     border: 1px solid #b5b4b4;
@@ -286,11 +297,13 @@ body {
     text-align: center;
     margin: 10px 0px;
 }
-.matchBlog p{
+
+.matchBlog p {
     margin: 0px 0px;
     color: rgb(94, 94, 94);
 }
-.matchBlog h2{
+
+.matchBlog h2 {
     font-size: 20px;
 }
 
@@ -351,16 +364,17 @@ body {
         width: 100%;
     }
 
-    .footerTitle h3{
+    .footerTitle h3 {
         color: #fff;
         font-size: 40px;
         margin: 0px;
         padding: 40px 0px;
     }
-    .matchBlog{
+
+    .matchBlog {
         width: 100%;
     }
-       
+
 
 
 }
@@ -416,13 +430,16 @@ body {
     .blog {
         width: 48%;
     }
-    #blog{
+
+    #blog {
         display: none;
     }
-    .moreButton button{
+
+    .moreButton button {
         display: block;
     }
-    .matchBlog{
+
+    .matchBlog {
         width: 100%;
     }
 
@@ -472,13 +489,16 @@ body {
     .blog {
         width: 48%;
     }
-    #blog{
+
+    #blog {
         display: none;
     }
-    .moreButton button{
+
+    .moreButton button {
         display: block;
     }
-    .matchBlog{
+
+    .matchBlog {
         width: 40%;
     }
 
@@ -489,7 +509,8 @@ body {
         font-size: 55px;
         line-height: 70px;
     }
-    .matchBlog{
+
+    .matchBlog {
         width: 40%;
     }
 }
