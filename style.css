@@ -20,7 +20,7 @@ body {
 }
 
 .head {
-    color: #fff;
+    color: rgb(218, 211, 211);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +47,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    color: #fff;
+    color: rgb(218, 211, 211);
     background-color: red;
     font-family: 'Poppins', sans-serif;
     border: 0px;
@@ -126,7 +126,7 @@ body {
 }
 
 .active a {
-    color: #fff !important;
+    color: rgb(218, 211, 211) !important;
 }
 
 .r-b-area {
@@ -176,13 +176,13 @@ body {
     padding-right: 15px;
 }
 
-.moreButton {
+.m-btn {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.moreButton button {
+.m-btn button {
     height: 55px;
     width: 180px;
     text-align: center;
@@ -395,7 +395,7 @@ body {
         display: none;
     }
 
-    .moreButton button {
+    .m-btn button {
         display: block;
     }
 
@@ -454,7 +454,7 @@ body {
         display: none;
     }
 
-    .moreButton button {
+    .m-btn button {
         display: block;
     }
 
