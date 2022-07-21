@@ -19,7 +19,7 @@ body {
     gap: 20px;
 }
 
-.headerContet {
+.head {
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -27,21 +27,21 @@ body {
 
 }
 
-.headerContet h1 {
+.head h1 {
     font-size: 68px;
     line-height: 80px;
     font-weight: 700;
     margin: 10px 0px;
 }
 
-.headerContet p {
+.head p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     margin: 40px 0px;
 }
 
-.headerContet button {
+.head button {
     height: 55px;
     width: 180px;
     text-align: center;
@@ -57,38 +57,38 @@ body {
     transition: transform .5s;
 }
 
-.headerContet button:hover {
+.head button:hover {
     transform: translate(50px);
 }
 
-.headerContet .fa-chevron-right {
+.head .fa-chevron-right {
     margin-left: 15px;
 }
 
-.headerImage img {
+.header-image img {
     width: 100%;
     height: 100%;
 }
 
-.playersBlogs {
+.players-draft {
     margin: 80px 0px;
 }
 
-.blogsWrapper {
+.blogs-area {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.leftsidBlogs {
+.l-blogs {
     width: 24%;
 }
 
-.rightsideBlogs {
+.r-blogs {
     width: 74%;
 }
 
-.leftsidBlogs ul {
+.l-blogs ul {
     display: flex;
     background-color: #000;
     padding: 20px;
@@ -98,8 +98,7 @@ body {
     border-radius: 5px;
 }
 
-
-.leftsidBlogs ul li {
+.l-blogs ul li {
     list-style: none;
     margin: 5px 0px;
     background-color: white;
@@ -111,7 +110,7 @@ body {
     border: 0px solid rgb(214, 214, 214);
 }
 
-.leftsidBlogs ul li a {
+.l-blogs ul li a {
     text-decoration: none;
     font-size: 16px;
     display: flex;
@@ -130,7 +129,7 @@ body {
     color: #fff !important;
 }
 
-.rightBlogsWrapper {
+.r-b-area {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -218,7 +217,7 @@ body {
 
 }
 
-.footerMenu ul {
+.footer-menu ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -228,32 +227,32 @@ body {
 
 }
 
-.footerMenu ul li {
+.footer-menu ul li {
     list-style: none;
     margin: 10px 15px;
 }
 
-.footerMenu ul li a {
+.footer-menu ul li a {
     text-decoration: none;
     color: rgb(212, 212, 212);
 }
 
-.matchBlog {
+.m-blog {
     width: 30%;
 }
 
-.teamFlags span {
+.team-flags span {
     font-size: 16px;
     font-weight: 700;
 }
 
-.teamFlags {
+.team-flags {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.matchBlog {
+.m-blog {
     width: 26%;
     border: 1px solid #b5b4b4;
     border-radius: 7px;
@@ -262,12 +261,12 @@ body {
     margin: 10px 0px;
 }
 
-.matchBlog p {
+.m-blog p {
     margin: 0px 0px;
     color: rgb(94, 94, 94);
 }
 
-.matchBlog h2 {
+.m-blog h2 {
     font-size: 20px;
 }
 
@@ -277,50 +276,50 @@ body {
         padding: 40px 30px 0px 30px;
     }
 
-    .headerContet {
+    .head {
         align-items: center;
         text-align: center;
     }
 
-    .headerContet h1 {
+    .head h1 {
         font-size: 30px;
         line-height: 45px;
     }
 
-    .headerContet p {
+    .head p {
         font-size: 14px;
         margin: 20px 0px;
     }
 
-    .headerContet button {
+    .head button {
         height: 40px;
         width: 160px;
     }
 
-    .leftsidBlogs ul {
+    .l-blogs ul {
         flex-direction: column;
         background-color: transparent;
     }
 
-    .blogsWrapper {
+    .blogs-area {
         flex-direction: column;
     }
 
-    .leftsidBlogs {
+    .l-blogs {
         width: 100%;
     }
 
-    .leftsidBlogs ul {
+    .l-blogs ul {
         flex-direction: column;
         background-color: transparent;
     }
 
-    .leftsidBlogs ul li {
+    .l-blogs ul li {
         margin: 10px 0px;
         border: 1px solid rgb(214, 214, 214);
     }
 
-    .rightsideBlogs {
+    .r-blogs {
         width: 100%;
     }
 
@@ -335,7 +334,7 @@ body {
         padding: 40px 0px;
     }
 
-    .matchBlog {
+    .m-blog {
         width: 100%;
     }
 }
@@ -345,46 +344,46 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .headerContet {
+    .head {
         align-items: center;
         text-align: center;
 
     }
 
-    .headerContet h1 {
+    .head h1 {
         font-size: 45px;
         line-height: 55px;
     }
 
-    .headerContet p {
+    .head p {
         font-size: 14px;
         margin: 20px 0px;
     }
 
-    .leftsidBlogs ul {
+    .l-blogs ul {
         flex-direction: row;
         background-color: transparent;
     }
 
-    .blogsWrapper {
+    .blogs-area {
         flex-direction: column;
     }
 
-    .leftsidBlogs {
+    .l-blogs {
         width: 100%;
     }
 
-    .leftsidBlogs ul {
+    .l-blogs ul {
         flex-direction: row;
         background-color: transparent;
     }
 
-    .leftsidBlogs ul li {
+    .l-blogs ul li {
         margin: 0px 10px;
         border: 1px solid rgb(214, 214, 214);
     }
 
-    .rightsideBlogs {
+    .r-blogs {
         width: 100%;
     }
 
@@ -400,7 +399,7 @@ body {
         display: block;
     }
 
-    .matchBlog {
+    .m-blog {
         width: 100%;
     }
 
@@ -408,42 +407,42 @@ body {
 
 @media (min-width: 768px) and (max-width: 992px) {
 
-    .headerContet h1 {
+    .head h1 {
         font-size: 45px;
         line-height: 55px;
     }
 
-    .headerContet p {
+    .head p {
         font-size: 14px;
         margin: 20px 0px;
     }
 
-    .headerContet button {
+    .head button {
         height: 45px;
         width: 150px;
         font-size: 14px;
 
     }
 
-    .blogsWrapper {
+    .blogs-area {
         flex-direction: column;
     }
 
-    .leftsidBlogs {
+    .l-blogs {
         width: 100%;
     }
 
-    .leftsidBlogs ul {
+    .l-blogs ul {
         flex-direction: row;
         background-color: transparent;
     }
 
-    .leftsidBlogs ul li {
+    .l-blogs ul li {
         margin: 0px 10px;
         border: 1px solid rgb(214, 214, 214);
     }
 
-    .rightsideBlogs {
+    .r-blogs {
         width: 100%;
     }
 
@@ -459,19 +458,20 @@ body {
         display: block;
     }
 
-    .matchBlog {
+    .m-blog {
         width: 40%;
     }
 
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .headerContet h1 {
+    .head h1 {
         font-size: 55px;
         line-height: 70px;
     }
 
-    .matchBlog {
+    .m-blog {
         width: 40%;
     }
 }
+
